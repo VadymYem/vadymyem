@@ -11,7 +11,7 @@
 - 📖 роман **«Author i Karoooka»**  
 - 🎼 близько **10 музичних композицій**  
 
-Мої роботи можна знайти на [особистому сайті](https://authorche.pp.ua) та в соцмережах.  
+Мої роботи можна знайти на [особистому сайті](https://authorche.top) та в соцмережах.  
 Навіть невелика підтримка — це величезна мотивація для подальшої творчості.  
 
 ---
@@ -31,8 +31,8 @@
 ---
 
 ## 🌟 Улюблені проєкти
-- [🌍 authorche.pp.ua](https://authorche.pp.ua) — сайт із моїми віршами, музикою та проєктами  
-- [⚠️ Air Raid Alert Info site] — вебсервіс для інформування про повітряні тривоги в Україні  
+- [🌍 authorche.top](https://authorche.top) — сайт із моїми віршами, музикою та проєктами  
+- [⚠️ Air Raid Alert Info site](https://authorche.top/alert) — вебсервіс для інформування про повітряні тривоги в Україні  
 - [🎮 AC-Games] — власна гейм-платформа *(у розробці)*  
 
 ---
@@ -65,7 +65,7 @@
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/vadym_yem)  
 [![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/author_che)  
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/wsinfo)  
-[![Website](https://img.shields.io/badge/Website-000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://authorche.pp.ua)  
+[![Website](https://img.shields.io/badge/Website-000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://authorche.top)  
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev@authorche.top)
 
 ---
