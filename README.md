@@ -1,24 +1,83 @@
-# 💫 About Me:
-My name is Vadim, a simple yet creative individual from Cherkasy, Ukraine. I write poetry, songs, and music, and sometimes I delve into programming, creating code for bots and websites. At present, my collection includes 60 published poems and almost a dozen songs, which you can discover on Facebook, Instagram, or my personal website. If you’d like to support my project, even a small donation would mean the world to me—it’s a tiny act for you, but a huge source of joy and motivation for me. Thank you for stopping by!
+# 👋 Привіт! Я — AuthorChe (Vadym Yemelianov)
 
+<img src="https://authorche.top/poems/logo.jpg" width="120" align="right" style="border-radius:50%;margin-left:20px;margin-bottom:20px;" />
 
-## 🌐 Socials:
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/vadym_yem) [![X](https://img.shields.io/badge/X-black.svg?logo=X&logoColor=white)](https://x.com/author_che) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:dev@authorche.top) 
+## 💫 About Me
+Мене звати **Вадим**, я родом з Черкас, Україна.  
+Я поєдную мистецтво й технології: пишу **поезію, музику та прозу**, а також займаюсь **програмуванням** — створюю боти, сайти та власні творчо-технічні проєкти.  
 
-# 💻 Tech Stack:
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E) ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white) ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white) ![.Net](https://img.shields.io/badge/.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white) ![Apache](https://img.shields.io/badge/apache-%23D42029.svg?style=for-the-badge&logo=apache&logoColor=white) ![Nginx](https://img.shields.io/badge/nginx-%23009639.svg?style=for-the-badge&logo=nginx&logoColor=white) ![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white) ![Adobe Photoshop](https://img.shields.io/badge/adobe%20photoshop-%2331A8FF.svg?style=for-the-badge&logo=adobe%20photoshop&logoColor=white) ![PyTorch](https://img.shields.io/badge/PyTorch-%23EE4C2C.svg?style=for-the-badge&logo=PyTorch&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitLab](https://img.shields.io/badge/gitlab-%23181717.svg?style=for-the-badge&logo=gitlab&logoColor=white) ![Gitpod](https://img.shields.io/badge/gitpod-f06611.svg?style=for-the-badge&logo=gitpod&logoColor=white) ![Portfolio](https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139) ![FFmpeg](https://shields.io/badge/FFmpeg-%23171717.svg?logo=ffmpeg&style=for-the-badge&labelColor=171717&logoColor=5cb85c) ![Docker](https://img.shields.io/badge/docker-%230db7ed.svg?style=for-the-badge&logo=docker&logoColor=white)
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=vadymyem&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=vadymyem&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=vadymyem&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
+На сьогодні маю:  
+- ✍️ понад **60 опублікованих віршів**  
+- 📖 роман **«Author i Karoooka»**  
+- 🎼 близько **10 музичних композицій**  
+
+Мої роботи можна знайти на [особистому сайті](https://authorche.pp.ua) та в соцмережах.  
+Навіть невелика підтримка — це величезна мотивація для подальшої творчості.  
+
+---
+
+## 💼 Професія та роль
+**Студент • Поет • Композитор • Програміст • Письменник**
+
+---
+
+## 🚀 Основні навички
+- 🐍 **Програмування:** Python, Web development  
+- ✍️ **Поезія та літературна творчість**  
+- 🎼 **Музична композиція**  
+- 🌐 **Переклад:** українська ↔ англійська  
+- ⚡ **Креативні проєкти:** поєднання мистецтва й технологій  
+
+---
+
+## 🌟 Улюблені проєкти
+- [🌍 authorche.pp.ua](https://authorche.pp.ua) — сайт із моїми віршами, музикою та проєктами  
+- [⚠️ Air Raid Alert Info site] — вебсервіс для інформування про повітряні тривоги в Україні  
+- [🎮 AC-Games] — власна гейм-платформа *(у розробці)*  
+
+---
+
+## 🛠 Tech Stack
+![Python](https://img.shields.io/badge/-Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![HTML](https://img.shields.io/badge/-HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/-CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Linux](https://img.shields.io/badge/-Linux-333333?style=for-the-badge&logo=linux&logoColor=white)
+![GitHub](https://img.shields.io/badge/-GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Telegram Bots](https://img.shields.io/badge/-Telegram%20Bots-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-0db7ed?style=for-the-badge&logo=docker&logoColor=white)
+
+---
+
+## 📊 GitHub Stats
+![](https://github-readme-stats.vercel.app/api?username=vadymyem&theme=dark&hide_border=false&include_all_commits=false&count_private=false)  
+![](https://nirzak-streak-stats.vercel.app/?user=vadymyem&theme=dark&hide_border=false)  
+![](https://github-readme-stats.vercel.app/api/top-langs/?username=vadymyem&theme=dark&hide_border=false&layout=compact)
+
+---
 
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=vadymyem&theme=radical&no-frame=false&no-bg=true&margin-w=4)
 
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
+---
+
+## 🔗 Соціальні мережі
+[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://instagram.com/vadym_yem)  
+[![X](https://img.shields.io/badge/X-black.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/author_che)  
+[![Telegram](https://img.shields.io/badge/Telegram-2CA5E0.svg?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/wsinfo)  
+[![Website](https://img.shields.io/badge/Website-000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139)](https://authorche.pp.ua)  
+[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dev@authorche.top)
 
 ---
-[![](https://visitcount.itsvg.in/api?id=vadymyem&icon=0&color=0)](https://visitcount.itsvg.in)
 
-<!-- Proudly created with GPRM ( https://gprm.itsvg.in ) -->
+## 🎲 Fun facts
+- Народився у Черкасах, Україна *(2005)*  
+- Поєдную мистецтво і програмування у власних проектах  
+- Теми творчості: природа, кохання, дружба, Батьківщина  
+- Улюблений стиль — створення унікальних культурно-технологічних проєктів  
+
+---
+
+> *"Поєднуючи культуру та технології — створюю нове!"*  
+
+[![](https://visitcount.itsvg.in/api?id=vadymyem&icon=0&color=0)](https://visitcount.itsvg.in)
