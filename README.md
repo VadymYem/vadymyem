@@ -1,268 +1,395 @@
-</details>
+<div align="center">
 
-<details>
-<summary><strong><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2L2 7l10 5 10-5-10-5z"/><path d="M2 17l10 5 10-5"/></svg>&nbsp; Technology</strong></summary>
+<img src="https://authorche.top/assets/img/authorche-social-card.png" width="100%" alt="AuthorChe — Vadym Yemelianov">
 
-<br>
+# AuthorChe
+
+### Software, music technology, automation and creative engineering
+
+[![Website](https://img.shields.io/badge/Website-authorche.top-C8A96E?logo=firefox&logoColor=111111)](https://authorche.top)
+[![OpenVox](https://img.shields.io/badge/Flagship-OpenVox-2D7D5A?logo=github&logoColor=white)](https://github.com/VadymYem/OpenVox)
+[![AuthorBot](https://img.shields.io/badge/Telegram-AuthorBot-26A5E4?logo=telegram&logoColor=white)](https://github.com/VadymYem/AuthorBot)
+[![Resume](https://img.shields.io/badge/Profile-Resume-6A5ACD?logo=readme&logoColor=white)](https://authorche.top/resume)
+[![Support](https://img.shields.io/badge/Support-Independent_Work-C8A96E?logo=buymeacoffee&logoColor=111111)](https://authorche.top/donate)
+
+**Vadym Yemelianov — AuthorChe**  
+Ukrainian developer, musician, vocalist, composer, writer and creative technologist.
+
+I build independent software that connects **engineering, music, privacy, automation and creative practice**.
+
+[Website](https://authorche.top) · [Resume](https://authorche.top/resume) · [OpenVox](https://vadymyem.github.io/OpenVox/) · [Telegram](https://t.me/wsinfo)
+
+</div>
+
+---
+
+## What I build
+
+| Area | Focus |
+|---|---|
+| **Music technology** | Browser audio, vocal analysis, pitch tracking, DSP, notation, rehearsal and music education |
+| **Web products** | Responsive applications, browser APIs, local-first architecture, PWA and offline workflows |
+| **Android** | Kotlin, Jetpack Compose, Material 3, OAuth and modern application architecture |
+| **Automation** | Telegram userbots, modules, APIs, integrations and background workflows |
+| **Privacy-first software** | On-device processing, transparent data flows and reduced backend dependence |
+| **Creative technology** | Software connecting music, writing, education, publishing and culture |
+
+> **Technology should expand creative freedom, not replace it.**
+
+---
+
+## OpenVox Studio
+
+<div align="center">
+
+### Flagship open-source project
+
+**Privacy-first browser studio for singers, vocal teachers, musicians, students and choirs.**
+
+[![Source](https://img.shields.io/badge/Source-GitHub-181717?logo=github&logoColor=white)](https://github.com/VadymYem/OpenVox)
+[![Live](https://img.shields.io/badge/Live-OpenVox-2D7D5A?logo=googlechrome&logoColor=white)](https://vadymyem.github.io/OpenVox/)
+[![PWA](https://img.shields.io/badge/PWA-Ready-5A0FC8?logo=pwa&logoColor=white)](https://vadymyem.github.io/OpenVox/)
+[![Languages](https://img.shields.io/badge/UI-EN%20%7C%20UK%20%7C%20DE-111827)](https://github.com/VadymYem/OpenVox)
+
+</div>
+
+**OpenVox** combines real-time vocal analysis, structured training, rehearsal, transcription, notation, multitrack audio, tuning and local project storage in one browser application.
+
+The main audio workflow runs on the user's device and does not require a dedicated server-side audio-processing backend.
+
+### What OpenVox includes
+
+| Area | Capabilities |
+|---|---|
+| **Live Voice Studio** | Pitch, note, frequency, cents, confidence, microphone calibration and monitoring |
+| **Vocal Academy** | Pitch matching, breathing, ear training, rhythm, sight singing and structured exercises |
+| **Vocal Analysis** | Range, stability, sustained-note analysis and vibrato metrics |
+| **Practice Studio** | Scales, arpeggios, intervals, custom melodies, transposition and microphone scoring |
+| **Instrument Workshop** | Chromatic tuner, 20+ tuning presets, custom tunings and reference tones |
+| **Backing Track Lab** | Local audio, waveform navigation, speed control, A–B loops and markers |
+| **Multitrack Mixer** | Multiple tracks, microphone overdubs, gain, pan, mute, solo and WAV mixdown |
+| **Professional Audio Lab** | Filters, gate, compressor, spectrum, oscilloscope, spectrogram and diagnostics |
+| **Voice to Score** | Monophonic transcription, tempo estimation, quantization and score transfer |
+| **Score Editor** | MusicXML/MIDI import, editing, lyrics, ties and SVG/PNG/print export |
+| **Choir Studio** | Ensemble import, part isolation, sectional rehearsal and live scoring |
+| **Local Projects** | IndexedDB persistence, recordings, settings and portable `.openvox` archives |
+
+### Architecture
+
+```text
+Microphone
+  -> MediaDevices
+  -> AudioContext
+  -> AudioWorklet
+  -> signal conditioning
+  -> WebAssembly pitch / DSP core
+  -> TypeScript analysis and compatibility fallback
+  -> training, notation and project logic
+  -> React interface
+```
+
+### Technology
 
 `React` · `TypeScript` · `Vite` · `Web Audio API` · `AudioWorklet` · `WebAssembly` · `C` · `IndexedDB` · `MediaRecorder` · `OfflineAudioContext` · `MusicXML` · `MIDI` · `PWA`
 
-</details>
+### Engineering quality
+
+OpenVox includes automated validation, accessibility checks, deterministic installs, CI workflows, dependency review, CodeQL, production-build verification, security documentation and explicit browser/runtime limitations.
+
+→ **[Open OpenVox repository](https://github.com/VadymYem/OpenVox)**
 
 ---
 
-## <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg> Catalog
+## Public projects
 
-A short overview of the rest of my public work — each project is a real product or a serious template, not a one-page experiment.
+### AuthorBot
 
-<table>
-<tr>
-<td width="50%" valign="top">
+[![Python](https://img.shields.io/badge/Python-3.10–3.11-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Telegram](https://img.shields.io/badge/Telegram-MTProto%20%2B%20Bot%20API-26A5E4?logo=telegram&logoColor=white)](https://core.telegram.org/)
+[![Repository](https://img.shields.io/badge/Source-GitHub-181717?logo=github&logoColor=white)](https://github.com/VadymYem/AuthorBot)
 
-#### <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 2L11 13"/><path d="M22 2l-7 20-4-9-9-4 20-7z"/></svg> AuthorBot
+A modular Telegram userbot built around modules, automation and modern Telegram interfaces.
 
-**Telegram automation platform** — a modular userbot built around extensibility, rich interfaces, reusable modules, and practical automation.
+- dynamic module loading and updates;
+- inline forms, lists, galleries and callback controls;
+- Rich Messages;
+- configurable permission model;
+- local database with optional Redis;
+- backup and restore;
+- Termux and Linux support;
+- multilingual public companion bot.
 
-`Python` · `MTProto` · `Bot API` · `AsyncIO` · `Linux` · `Termux`
-
-<a href="https://github.com/VadymYem/AuthorBot"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="AuthorBot"></a>
-
-</td>
-<td width="50%" valign="top">
-
-#### <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><path d="M21 21l-4.35-4.35"/></svg> AuthorOSINT
-
-**OSINT toolkit** — a Python toolkit for practical research using publicly available information and common open-source intelligence workflows.
-
-`Python` · `DNS` · `WHOIS` · `HTTP APIs` · `Sherlock` · `Linux`
-
-<a href="https://github.com/VadymYem/AuthorOSINT"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="AuthorOSINT"></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="M22 6l-10 7L2 6"/></svg> AuthorMail
-
-**Android email template** — an open-source development scaffold, not a finished production client. Demonstrates modern Android mail architecture around Compose, Clean Architecture, OAuth, and AI-assisted spam analysis.
-
-`Kotlin` · `Jetpack Compose` · `Material 3` · `Hilt` · `OAuth2`
-
-<a href="https://github.com/VadymYem/AuthorMail"><img src="https://img.shields.io/badge/Template-181717?style=flat-square&logo=github&logoColor=white" alt="AuthorMail"></a>
-
-</td>
-<td width="50%" valign="top">
-
-#### <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"/></svg> CheModules
-
-**Telegram module library** — a public collection of Python modules for Telegram automation environments covering AI, moderation, media, security, and productivity.
-
-`Python` · `Telegram APIs` · `HTTP APIs` · `Automation`
-
-<a href="https://github.com/VadymYem/CheModules"><img src="https://img.shields.io/badge/Repository-181717?style=flat-square&logo=github&logoColor=white" alt="CheModules"></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="6" width="20" height="12" rx="6"/><path d="M7.5 10v4M5.5 12h4"/></svg> AC-Games
-
-**Browser game collection** — a public web catalogue of ~185 browser games, playable directly in the browser without installation.
-
-`HTML` · `CSS` · `JavaScript` · `Canvas API` · `WebGL`
-
-<a href="https://github.com/VadymYem/acgames"><img src="https://img.shields.io/badge/Source-181717?style=flat-square&logo=github&logoColor=white" alt="AC-Games source"></a>
-<a href="https://vadymyem.github.io/acgames/"><img src="https://img.shields.io/badge/Live-C8A96E?style=flat-square&logo=googlechrome&logoColor=111111" alt="AC-Games live"></a>
-
-</td>
-<td width="50%" valign="top">
-
-#### <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/></svg> Air Alerts System
-
-**Real-time public information interface** — a responsive web interface for monitoring air-raid alerts in Ukraine using external APIs.
-
-`Realtime data` · `External APIs` · `Responsive UI`
-
-<a href="https://alerts.authorche.top"><img src="https://img.shields.io/badge/Open-C8A96E?style=flat-square&logo=googlechrome&logoColor=111111" alt="Air Alerts"></a>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-#### <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6z"/><path d="M14 2v6h6"/><path d="M16 13H8M16 17H8"/></svg> Perfect Resume Builder
-
-**Browser-native resume creation** — a web application focused on structured resume editing, professional presentation, and export-oriented document workflows.
-
-`Document generation` · `Responsive editing` · `Browser workflow`
-
-<a href="https://authorche.top/prb"><img src="https://img.shields.io/badge/Open-C8A96E?style=flat-square&logo=readme&logoColor=111111" alt="Resume Builder"></a>
-
-</td>
-<td width="50%" valign="top">
-
-#### <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M2 12h20"/><path d="M12 2a15 15 0 0 1 4 10 15 15 0 0 1-4 10 15 15 0 0 1-4-10 15 15 0 0 1 4-10z"/></svg> AuthorChe Platform
-
-**Independent digital platform** — the central home for my software, music, poetry, biography, public tools, and creative publishing.
-
-`Portfolio` · `Music` · `Poetry` · `Software` · `Publishing`
-
-<a href="https://authorche.top"><img src="https://img.shields.io/badge/Open-C8A96E?style=flat-square&logo=firefox&logoColor=111111" alt="AuthorChe"></a>
-
-</td>
-</tr>
-</table>
+→ **[VadymYem/AuthorBot](https://github.com/VadymYem/AuthorBot)**
 
 ---
 
-## <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 1v3M15 1v3M9 20v3M15 20v3M1 9h3M1 15h3M20 9h3M20 15h3"/></svg> Technology
+### AuthorOSINT
+
+[![Python](https://img.shields.io/badge/Python-OSINT-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Repository](https://img.shields.io/badge/Source-GitHub-181717?logo=github&logoColor=white)](https://github.com/VadymYem/AuthorOSINT)
+
+A Python toolkit for working with publicly available information and common OSINT workflows.
+
+- web and Wikipedia search;
+- phone-number metadata;
+- email and domain inspection;
+- username discovery;
+- WHOIS and IP information;
+- DNS and subdomain checks;
+- external OSINT integrations;
+- AI-assisted workflows.
+
+→ **[VadymYem/AuthorOSINT](https://github.com/VadymYem/AuthorOSINT)**
+
+---
+
+### AuthorMail
+
+[![Kotlin](https://img.shields.io/badge/Kotlin-Android-7F52FF?logo=kotlin&logoColor=white)](https://kotlinlang.org/)
+[![Compose](https://img.shields.io/badge/Jetpack_Compose-Material_3-4285F4?logo=jetpackcompose&logoColor=white)](https://developer.android.com/compose)
+[![Template](https://img.shields.io/badge/Status-Template%20%2F%20Scaffold-C8A96E)](https://github.com/VadymYem/AuthorMail)
+
+An open-source **Android email-client template / scaffold**.
+
+It is a development foundation rather than a finished production mail client.
+
+The project demonstrates:
+
+- Clean Architecture + MVVM;
+- Jetpack Compose + Material Design 3;
+- Hilt dependency injection;
+- Gmail and Outlook OAuth flows;
+- Gemini-assisted spam analysis;
+- trusted-sender whitelist;
+- DataStore-backed settings;
+- responsive dark/light UI.
+
+→ **[VadymYem/AuthorMail](https://github.com/VadymYem/AuthorMail)**
+
+---
+
+### CheModules
+
+[![Python](https://img.shields.io/badge/Python-Modules-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![Repository](https://img.shields.io/badge/Source-GitHub-181717?logo=github&logoColor=white)](https://github.com/VadymYem/CheModules)
+
+A public collection of Python modules for Telegram automation environments.
+
+The repository contains modules for AI helpers, moderation, media, alerts, VirusTotal, IP tools, Spotify, feedback, inline utilities, customization and other workflows.
+
+→ **[VadymYem/CheModules](https://github.com/VadymYem/CheModules)**
+
+---
+
+### AC-Games
+
+[![Web](https://img.shields.io/badge/Web-HTML%20%2F%20CSS%20%2F%20JS-E34F26?logo=html5&logoColor=white)](https://github.com/VadymYem/acgames)
+[![Games](https://img.shields.io/badge/Catalog-~185_games-2D7D5A)](https://vadymyem.github.io/acgames/)
+[![Live](https://img.shields.io/badge/Live-GitHub_Pages-181717?logo=githubpages&logoColor=white)](https://vadymyem.github.io/acgames/)
+
+A public catalogue of approximately **185 browser games** available without installation.
+
+- browser-first delivery;
+- responsive catalogue;
+- mobile/desktop filtering;
+- GitHub Pages deployment;
+- simplified advertising-free browsing experience.
+
+[Source](https://github.com/VadymYem/acgames) · [Live catalogue](https://vadymyem.github.io/acgames/)
+
+---
+
+### Air Alerts System
+
+[![Live](https://img.shields.io/badge/Live-alerts.authorche.top-C8A96E?logo=googlechrome&logoColor=111111)](https://alerts.authorche.top)
+
+A real-time web interface for monitoring air-raid alerts in Ukraine.
+
+**Focus:** public information, external APIs, dynamic status updates and responsive presentation.
+
+→ **[alerts.authorche.top](https://alerts.authorche.top)**
+
+---
+
+### Perfect Resume Builder
+
+[![Live](https://img.shields.io/badge/Live-Resume_Builder-6A5ACD?logo=readme&logoColor=white)](https://authorche.top/prb)
+
+A browser-based application for structured resume creation and export-oriented professional document workflows.
+
+**Focus:** document generation, structured layouts, responsive editing and browser-native productivity.
+
+→ **[authorche.top/prb](https://authorche.top/prb)**
+
+---
+
+### AuthorChe
+
+[![Website](https://img.shields.io/badge/Website-authorche.top-C8A96E?logo=firefox&logoColor=111111)](https://authorche.top)
+
+My independent digital platform for software, music, poetry, biography, public tools and creative work.
+
+It acts as the public hub connecting my technical and creative projects.
+
+→ **[authorche.top](https://authorche.top)**
+
+---
+
+## Technology
+
+### Languages
+
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=111111)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?logo=kotlin&logoColor=white)
+![C](https://img.shields.io/badge/C-A8B9CC?logo=c&logoColor=111111)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+
+### Web and audio
+
+![React](https://img.shields.io/badge/React-20232A?logo=react&logoColor=61DAFB)
+![Vite](https://img.shields.io/badge/Vite-646CFF?logo=vite&logoColor=white)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-654FF0?logo=webassembly&logoColor=white)
+![Web Audio](https://img.shields.io/badge/Web_Audio_API-111827?logo=googlechrome&logoColor=white)
+![PWA](https://img.shields.io/badge/PWA-5A0FC8?logo=pwa&logoColor=white)
+
+### Android and platform
+
+![Android](https://img.shields.io/badge/Android-3DDC84?logo=android&logoColor=111111)
+![Jetpack Compose](https://img.shields.io/badge/Jetpack_Compose-4285F4?logo=jetpackcompose&logoColor=white)
+![Material 3](https://img.shields.io/badge/Material_3-6750A4?logo=materialdesign&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-333333?logo=linux&logoColor=white)
+![Termux](https://img.shields.io/badge/Termux-000000?logo=gnubash&logoColor=white)
+
+### Delivery and infrastructure
+
+![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?logo=cloudflare&logoColor=white)
+
+---
+
+## Development principles
+
+### Local first where practical
+
+Personal or sensitive data should remain on the user's device whenever local processing can reasonably solve the task.
+
+### Reliability before decoration
+
+Visual design matters, but correct behavior, stability, accessibility, performance and predictable UX matter more.
+
+### Open and inspectable
+
+Public software should be understandable, documented, testable and maintainable.
+
+### Technology with identity
+
+I prefer products with a clear point of view instead of anonymous copies of existing software.
+
+### Cross-disciplinary work
+
+The most interesting systems often appear where different areas meet:
+
+**software + music + education + culture + creativity**
+
+---
+
+## Creative background
+
+Software is one part of my work.
+
+My background also includes:
+
+- formal music education;
+- vocal teaching and coaching;
+- solo and choral performance;
+- composition;
+- poetry and literary writing;
+- independent digital publishing.
+
+I have published more than **60 poems**, written the novel **“Author i Karoooka”**, and created around **10 original musical compositions**.
+
+This background directly influences the software I build — especially **OpenVox**, where music practice, education and engineering are part of the same product.
+
+---
+
+## Current focus
+
+- expanding **OpenVox** into a broader open-source vocal and music platform;
+- improving browser-based audio processing and DSP;
+- developing local-first applications;
+- building Android projects with modern architecture;
+- improving **AuthorBot** and its module ecosystem;
+- building automation and Telegram tooling;
+- improving accessibility and mobile UX;
+- maintaining independent public web tools;
+- continuing music, composition, poetry and writing.
+
+---
+
+## Collaboration
+
+I welcome serious collaboration around:
+
+- open-source software;
+- music technology;
+- Web Audio and DSP;
+- Android;
+- accessibility;
+- educational software;
+- automation;
+- privacy-first applications;
+- creative technology.
+
+For OpenVox:
+
+[![Issues](https://img.shields.io/badge/OpenVox-Issues-181717?logo=github&logoColor=white)](https://github.com/VadymYem/OpenVox/issues)
+[![Security](https://img.shields.io/badge/OpenVox-Security-181717?logo=github&logoColor=white)](https://github.com/VadymYem/OpenVox/security)
+
+---
+
+## Author
+
+**Vadym Yemelianov — AuthorChe** is a Ukrainian developer, vocalist, vocal teacher, composer, writer and creative technologist.
+
+His work connects software engineering with music, education, independent publishing and creative practice.
+
+- Website: https://authorche.top
+- Resume: https://authorche.top/resume
+- GitHub: https://github.com/VadymYem
+- Telegram: https://t.me/wsinfo
+- Instagram: https://instagram.com/vadym_yem
+- X: https://x.com/author_che
+- Email: dev@authorche.top
+
+---
+
+## Support
+
+Most public AuthorChe projects are developed independently and released free of charge.
+
+Support contributes to:
+
+- open-source development;
+- infrastructure and hosting;
+- music-technology research;
+- public tools;
+- long-term maintenance;
+- independent creative work.
 
 <div align="center">
 
-**Languages**
-
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=111111" alt="JavaScript">
-<img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white" alt="Kotlin">
-<img src="https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=111111" alt="C">
-<img src="https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white" alt="HTML5">
-<img src="https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white" alt="CSS3">
+[![Support AuthorChe](https://img.shields.io/badge/Support_AuthorChe-Donate-C8A96E?style=for-the-badge&logo=buymeacoffee&logoColor=111111)](https://authorche.top/donate)
 
 <br>
 
-**Web / Audio**
+**AuthorChe**
 
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React">
-<img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite">
-<img src="https://img.shields.io/badge/Web_Audio_API-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="Web Audio API">
-<img src="https://img.shields.io/badge/AudioWorklet-111111?style=flat-square&logo=googlechrome&logoColor=white" alt="AudioWorklet">
-<img src="https://img.shields.io/badge/WebAssembly-654FF0?style=flat-square&logo=webassembly&logoColor=white" alt="WebAssembly">
-<img src="https://img.shields.io/badge/PWA-5A0FC8?style=flat-square&logo=pwa&logoColor=white" alt="PWA">
-
-<br>
-
-**Android / Platform**
-
-<img src="https://img.shields.io/badge/Android-3DDC84?style=flat-square&logo=android&logoColor=111111" alt="Android">
-<img src="https://img.shields.io/badge/Jetpack_Compose-4285F4?style=flat-square&logo=jetpackcompose&logoColor=white" alt="Jetpack Compose">
-<img src="https://img.shields.io/badge/Material_3-6750A4?style=flat-square&logo=materialdesign&logoColor=white" alt="Material Design 3">
-<img src="https://img.shields.io/badge/Linux-333333?style=flat-square&logo=linux&logoColor=white" alt="Linux">
-<img src="https://img.shields.io/badge/Termux-000000?style=flat-square&logo=gnubash&logoColor=white" alt="Termux">
-
-<br>
-
-**Delivery / Infrastructure**
-
-<img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white" alt="Git">
-<img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub">
-<img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
-<img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker">
-<img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare">
-
-</div>
-
----
-
-## <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 20V10M12 20V4M6 20v-6"/></svg> GitHub
-
-<div align="center">
-
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=VadymYem&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000&text_color=c9d1d9&icon_color=c8a96e&ring_color=c8a96e">
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api?username=VadymYem&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000&text_color=24292f&icon_color=9a7b36&ring_color=9a7b36">
-<img width="100%" alt="Vadym Yemelianov GitHub statistics" src="https://github-readme-stats.vercel.app/api?username=VadymYem&show_icons=true&hide_border=true&hide_title=true&bg_color=00000000">
-</picture>
-
-<picture>
-<source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VadymYem&layout=compact&hide_border=true&bg_color=00000000&text_color=c9d1d9&title_color=c8a96e">
-<source media="(prefers-color-scheme: light)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=VadymYem&layout=compact&hide_border=true&bg_color=00000000&text_color=24292f&title_color=9a7b36">
-<img width="100%" alt="Most used languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=VadymYem&layout=compact&hide_border=true&bg_color=00000000">
-</picture>
-
-</div>
-
----
-
-## <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/><path d="M16 8L2 22"/><path d="M17.5 15H9"/></svg> Creative Practice
-
-I am not only a developer. My background includes formal music education, vocal teaching, solo and choral performance, composition, poetry, literary writing, and independent digital publishing — and that background directly shapes the products I build.
-
-<div align="center">
-
-| <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18V5l12-2v13"/><circle cx="6" cy="18" r="3"/><circle cx="18" cy="16" r="3"/></svg> | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg> | <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.24 12.24a6 6 0 0 0-8.49-8.49L5 10.5V19h8.5z"/></svg> |
-|:---:|:---:|:---:|
-| **60+** poems published | **1** novel — *“Author i Karoooka”* | **10+** original compositions |
-
-</div>
-
-Especially OpenVox — where music practice, education, interface design, and engineering are treated as one system.
-
----
-
-## <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg> Principles
-
-> [!TIP]
-> **Local first where it makes sense.** If a task can be completed reliably on-device, personal data should not be pushed to remote infrastructure without a reason.
-
-> [!NOTE]
-> **Reliability before decoration.** Correctness, accessibility, performance, maintainability, and predictable behavior come first.
-
-> [!NOTE]
-> **Open and inspectable.** Public software should be understandable, testable, documented, and maintainable.
-
-> [!NOTE]
-> **Identity matters.** I prefer software with a clear point of view over anonymous copies of existing products.
-
----
-
-## <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/></svg> Collaboration
-
-I am interested in serious collaboration around:
-
-<div align="center">
-
-`Open Source` · `Music Technology` · `Web Audio` · `DSP` · `Android` · `Accessibility` · `Educational Software` · `Automation` · `Privacy-First Software` · `Creative Technology`
-
-<br><br>
-
-<a href="https://github.com/VadymYem/OpenVox/issues"><img src="https://img.shields.io/badge/OpenVox-Issues-181717?style=for-the-badge&logo=github&logoColor=white" alt="OpenVox issues"></a>
-<a href="https://github.com/VadymYem/OpenVox/security"><img src="https://img.shields.io/badge/OpenVox-Security-181717?style=for-the-badge&logo=github&logoColor=white" alt="OpenVox security"></a>
-
-</div>
-
----
-
-## <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="url(#g)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"/></svg> Support
-
-<div align="center">
-
-### Build independently. Publish deliberately.
-
-Most of my public work is developed independently and released free of charge. Support funds open-source development, hosting, infrastructure, music-technology research, public tools, and long-term maintenance.
-
-<br>
-
-<a href="https://authorche.top/donate"><img src="https://img.shields.io/badge/Support_AuthorChe-Buy_Me_A_Coffee-C8A96E?style=for-the-badge&logo=buymeacoffee&logoColor=111111" alt="Support AuthorChe"></a>
-
-<br><br>
-
-<img src="https://authorche.top/poems/logo.jpg" width="72" alt="AuthorChe">
-
-<br>
-
-**AuthorChe** · Vadym Yemelianov
-
-*Software Developer · Musician · Creative Technologist*
-
-<br>
-
-<a href="https://authorche.top">Website</a> · <a href="https://authorche.top/resume">Resume</a> · <a href="mailto:dev@authorche.top">Email</a> · <a href="https://instagram.com/vadym_yem">Instagram</a> · <a href="https://x.com/author_che">X</a> · <a href="https://t.me/wsinfo">Telegram</a>
-
-<br><br>
-
-<sub>Building where technology, music, and creativity meet.</sub>
+*Building where technology, music and creativity meet.*
 
 </div>
